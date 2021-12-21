@@ -1,0 +1,41 @@
+div.product-overview {
+  display: flex;
+  width: 100%;
+  align-items: center;
+
+  img.product-image {
+    min-width: 30%;
+    max-width: 50%;
+    max-height: 50%;
+  }
+
+  div.description {
+    padding: 30px 30px 30px 50px;
+
+    p.product-details {
+      padding-bottom: 5px;
+    }
+
+    span.product-price {
+      font-weight: bold;
+    }
+
+    button.add-to-card-button {
+      margin-top: 20px;
+    }
+  }
+
+  @media screen and (max-width: 580px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    div.description {
+      padding: 0 3% 20px 3%;
+    }
+  }
+}
+
+table.product-characteristics {
+  width: 100%;
+}

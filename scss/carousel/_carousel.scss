@@ -1,0 +1,11 @@
+div.carousel-viewer {
+  width: 100%;
+
+  div.carousel-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 200px);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 10px;
+    justify-content: center;
+  }
+}

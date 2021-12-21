@@ -1,0 +1,12 @@
+@import 'header/header';
+@import 'carousel/carousel';
+@import 'components/cards/cards';
+@import 'components/flashes/flashes';
+@import 'products/products-list';
+@import 'products/product-view';
+
+@media screen and (max-width: 1024px) {
+  div.container {
+    max-width: 90%;
+  }
+}

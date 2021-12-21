@@ -1,0 +1,47 @@
+.card {
+  height: 250px;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  img.card-img {
+    height: 150px;
+    object-fit: cover;
+  }
+
+  div.card-body {
+    padding: 7px 10px 10px 10px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    p.card-title {
+      font-size: 17px;
+      font-weight: bold;
+    }
+
+    div.card-bottom {
+      justify-content: space-between;
+      display: flex;
+      width: 100%;
+
+      p.card-price {
+        font-weight: 600;
+      }
+
+      p.card-go {
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+
+        span {
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}
