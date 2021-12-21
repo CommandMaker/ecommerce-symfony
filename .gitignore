@@ -18,3 +18,9 @@
 /phpunit.xml
 .phpunit.result.cache
 ###< phpunit/phpunit ###
+
+###> Others ###
+.idea
+.idea/ecommerce-serie-symfony-6.iml
+/public/assets/css/
+###< Others ###
